@@ -49,6 +49,6 @@ function anagrammedName(name) {
 
 function nameClick(e) {
 	e.preventDefault();
-	let name = $(this).text();
+	var name = $(this).text();
 	$(this).text(anagrammedName(name));
 }
